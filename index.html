@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pure CSS page">
+
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:100,200,300,400,500,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>
+            Borrow me | We lend everything to everyone
+        </title>       
+
+    </head>
+
+    <body>
+
+            <!-- in this full-responsive project I practiced: 
+                Sass mixins
+                Sass variables
+                Sass functions
+                multiple backgrounds
+                animated background gradient 
+                checkbox hack (styled menu button)
+                radio input hack (styled radio input)
+                multiple animations
+                background clip
+                BEM methodology
+                7-1 architecture
+                HTML and CSS responsive images 
+                background-video,
+                CSS build process -->
+            
+
+            <div class="toggle">
+                        <input type="checkbox" class="toggle__checkbox"id="checkbox"> 
+                        <label for="checkbox" class="toggle__button">
+                            <span class="toggle__line">
+                                &nbsp;</span>
+                        </label>
+                    <div class="toggle__background">
+                    </div>
+                    <nav class="toggle__menu">
+                        <ul class="toggle__list">
+                            <li class="toggle__list-item">
+                                <a href="#" class="toggle__list-item--link">About us</a>
+                            </li>
+                            <li class="toggle__list-item">
+                                    <a href="#" class="toggle__list-item--link">Our mission</a>
+                            </li>
+                            <li class="toggle__list-item">
+                                    <a href="#" class="toggle__list-item--link"> policy</a>
+                            </li>
+                            <li class="toggle__list-item">
+                                    <a href="#" class="toggle__list-item--link">Contact us</a>
+                            </li>
+                            <li class="toggle__list-item">
+                                    <a href="#" class="toggle__list-item--link">Jobs</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+
+        <header class="header" id="header">
+            <div class="header__logo-box">
+                <img src="img/logo-white.png" alt="Logo" class="header__logo">
+            </div>
+            <div class="header__text-box">
+                <h1 class="heading-primary"><span class="heading-primary--main">Borrow Me </span> <span class="line--horizontal-animated"></span>   <span class="heading-primary--sub">We lend everything</span></h1>
+                <a href="#services" class="btn btn--main">Check out</a>
+            </div>
+        </header>
+
+        
+
+        <section class="services" id="services">
+                        
+            <h2 class="heading-secondary u-mar-top-big u-mar-bot-big">Services <span class="line--horizontal-animated"></span></h2>
+
+            <div class="row">
+                    <div class="col-2-of-5">
+                        <div class="card">
+                            <div class="card__body--front services__professional">
+                                 <div class="card__photo card__photo--1">
+                                            &nbsp;
+                                        </div>
+                                 <h3 class="heading-tertiary card__heading">Premium lending</h3>
+                                <ul class="card__list ">
+                                    <li class="card__list--item">Best services</li>
+                                    <li class="card__list--item">Highest quality</li>
+                                    <li class="card__list--item">100% Safety</li>
+                                 </ul>
+                            </div>
+                            <div class="card__body--back">
+                                    <ul class="card__list ">
+                                            <li class="card__list--item">Lorem ipsum</li>
+                                            <li class="card__list--item">Convenient subscriptions</li>
+                                            <li class="card__list--item">Check out our pricing</li>
+                                         </ul>
+                                    <a href="#" class="btn btn--secondary card__btn">Join now</a>
+                            </div>
+                        </div>
+                        
+                        
+                     </div>
+                    <div class="col-1-of-5 logo-animated">                    
+                            <div class="shape-1 shape"></div>
+                            <div class="shape-2 shape"></div>
+                            <div class="shape-3 shape"></div>
+                            <div class="shape-4 shape"></div>
+                            <div class="shape-5 shape"></div>
+                            <div class="shape-6 shape"></div> 
+                    </div>
+                    
+                    <div class="col-2-of-5">
+                        <div class="card">
+                            <div class="card__body--front services__social">
+                                    <div class="card__photo card__photo--2">
+                                        &nbsp;
+                                    </div>
+                                    <h3 class="heading-tertiary card__heading">Social lending</h3>
+                                    <ul class="card__list ">
+                                            <li class="card__list--item">Hand-to-hand</li>
+                                            <li class="card__list--item">Friendly atmosphere</li>
+                                            <li class="card__list--item">Free-to-borrow</li>
+                                        </ul>
+                            </div>
+                            <div class="card__body--back">
+                                    <ul class="card__list ">
+                                            <li class="card__list--item">Lorem ipsum</li>
+                                            <li class="card__list--item">Lorem, ipsum.</li>
+                                            <li class="card__list--item">Create an acoount to use</li>
+                                         </ul>
+                                    <a href="#" class="btn btn--secondary card__btn">Join now</a>
+                               
+                                    
+                                    
+                            </div>
+                        </div>
+                        
+                            
+                    </div>
+            </div>
+            
+
+        </section>
+
+
+        <section class="stories">
+            <div class="stories__bg-video">
+                <video autoplay loop class="stories__bg-video--video">
+                    <source src="img/Oculus.mp4" type="video/mp4">
+                    <source src="img/Oculus.webm" type="video/webm">
+                    <source src="img/Oculus.ogv" type="video/ogv">
+                </video>
+            </div>
+            <div class="row">
+                <div class="form__body">
+                    <div class="form__container">
+                        <form action="#" class="form">
+                            <div class="form__heading">
+                                <h2 class="heading-secondary--small u-mar-top-small u-mar-bot-med ">Newsletter <span class="line--horizontal-animated "></span></h2>
+                            </div>
+                            <div class="form__group">
+                                <input type="email" class="form__input" id="email" placeholder="Your email address" required>
+                                <label for="email" class="form__label">Your email address</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" id="name" placeholder="Your name" required>
+                                <label for="name" class="form__label">Your name</label>
+                            </div>
+                            <h3 class="form__heading--small u-mar-top-med">I'm interested in:</h3>
+                            <div class="form__group">
+                                <div class="form__radio--group">
+                                    <input type="radio" class="form__radio--input" id="professional" name="type" checked>
+                                    <label class="form__radio--label" for="professional">
+                                        <span class="form__radio--box"></span>Professional services
+                                    </label>
+                                </div>
+
+                                <div class="form__radio--group">
+                                    <input type="radio" class="form__radio--input" id="community" name="type">
+                                    <label class="form__radio--label"for="community">
+                                        <span class="form__radio--box"></span>Community services
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form__group">
+                                <button class="btn  btn--tertiary form__btn">Subscribe</button>
+                            </div>
+                            
+                            
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+
+        <footer class="footer">
+            <div class="footer__logo">
+
+                <picture class="footer__logo--img">
+                    <source srcset="img/logo-white-1x.png 1x, img/logo-white-2x.png 2x"  media="(max-width: 37.5em)">
+
+                    <img srcset="img/logo-small-white1x.png 1x, img/logo-small-white.png 2x" src="img/logo-small-white.png" alt="Logo" class="footer__logo--img">
+                </picture>
+
+                
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__privacy">
+                        Project built by <a href="#" class="footer__link">Michal Burdzy</a> inspired by <em>Natours</em> project by <a href="#" class="footer__link">Jonas Schmedtmann</a> included in his great course <a href="#" class="footer__link">"Advanced CSS and SASS"</a> 
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">About</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">News</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Contact</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Policy</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Jobs</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+            
+        </footer>
+       
+        
+       
+        
+    </body>
+</html>
